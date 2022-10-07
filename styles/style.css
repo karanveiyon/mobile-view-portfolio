@@ -1,0 +1,268 @@
+*
+{
+padding: 0%; 
+margin: 0%; 
+box-sizing: border-box;
+font-family: monospace;
+}
+body
+{ 
+background: linear-gradient(to right, #2d2d2d, #3e3e3e );
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+}
+.phone-screen
+{
+/*width: 74.46mm; 
+height:160.98mm;  */
+width: 74.46mm; 
+height:90vh; 
+background-color: aliceblue;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+background: url("../images/wallpaper.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.top
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+border-radius: 15px 15px 0 0;
+}
+.top-notch
+{
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: black;
+margin: 3px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+z-index: 5;
+
+}
+#cam
+{
+background-color: rgb(121, 121, 121);
+width: 10px;
+height: 10px;
+border-radius: 50%;
+opacity: .3;
+}
+.menu-toggle
+{
+width: 100%;
+display: flex;
+flex-direction: row;
+background-color: black;
+opacity: .8;
+justify-content: space-between;
+color: white;
+padding: 4px 7px;
+border-radius: 0 0 15px 15px;
+z-index: 5;
+}
+.menu
+{
+align-self: baseline;
+}
+.content
+{
+display: flex;
+flex-direction: row;
+height: 80%;
+justify-content: space-between;
+margin-right: .5rem;
+width: 100%;
+
+}
+.right-bar
+{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+width: 100%;
+}
+.left-bar
+{
+color: white;
+align-self: flex-start;
+text-align: left;
+margin-left: 1rem;
+width: 100%;
+font-family: 'Electrolize', sans-serif;
+}
+.app
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self:flex-end;
+color: aliceblue;
+font-family: monospace;
+width: max-content;
+font-size: small;
+}
+.icon
+{
+height: 35px;
+width: 35px;
+border-radius: 50%;
+}
+.pro-icon
+{
+height: 35px;
+width: 35px;
+}
+#my-profile
+{
+background-color:#FF4155;
+}
+#profile
+{
+display: none;
+flex-direction: column;
+font-family: monospace;
+color: white;
+background-color: black;
+opacity: .8;
+width: 100%;
+height: 100%;
+align-items: center;
+}
+.display
+{
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+margin: 1rem;
+}
+.box1
+{
+background-color: rgb(184, 178, 178);
+color:black;
+width: 80%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:flex-start ;
+text-align: left;
+padding: 4px;
+border-radius: 10px;
+}
+.text
+{
+align-items: flex-start;
+padding-left: 1rem;
+}
+a
+{
+text-decoration: none;
+color: black;
+}
+/* resume section */
+.resume
+{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    opacity: .8;
+}
+.r-top
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.r-img
+{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #FF4155;
+ 
+}
+.r-line
+{
+width: 60%;
+align-self: flex-end;
+}
+.r-content
+{
+    text-align: right;
+    padding: 1rem;
+    line-height: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.r-content-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+}
+.r-link
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.r-list
+{
+   
+    list-style-type: none;
+}
+
+/* Project section */
+#project-div{
+display: none;
+flex-direction: column;
+align-items: center;
+
+background-color: black;
+opacity: .8;
+width: 100%;
+height: 100%;
+}
+.projects-link
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    color: black;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding: .6rem;
+    text-align: left;
+    margin-top: .3rem;
+}
+.pro-icon{
+    width: 35px;
+    height: 35px;
+}
