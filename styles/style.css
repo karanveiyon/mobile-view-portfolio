@@ -19,7 +19,7 @@ align-items: center;
 /*width: 74.46mm; 
 height:160.98mm;  */
 width: 74.46mm; 
-height:90vh; 
+height:85vh; 
 background-color: aliceblue;
 border-radius: 15px;
 display: flex;
@@ -29,6 +29,16 @@ justify-content: space-between;
 background: url("../images/wallpaper.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+border-left:rgb(94, 92, 92)2px solid;
+border-top: rgb(61, 61, 61) 1px solid;
+border-right: rgb(37, 37, 37) 1px solid;
+box-shadow: 5px 5px 7px rgb(37, 37, 37);
+}
+@media screen and (max-width:768px) {
+  .phone-screen{
+    width: 80%;
+    height: 80vh;
+  }
 }
 .top
 {
